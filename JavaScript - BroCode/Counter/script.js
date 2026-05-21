@@ -5,7 +5,7 @@ const increase = document.getElementById("increaseBTN");
 const reset = document.getElementById("resetBTN");
 const label = document.getElementById("label");
 const history = document.getElementById("logs")
-let count = 0 
+let count = 0 ;
 let historylist = [];
 
 increase.onclick = function(){
