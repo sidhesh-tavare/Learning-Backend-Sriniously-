@@ -1,0 +1,21 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "Learning Node JS",
+  "license": "ISC",
+  "author": "Sidhesh Tavare",
+  "type": "commonjs",
+  "main": "farm-index.js",
+  "scripts": {
+    "start": "nodemon farm-index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "global": "^4.4.0",
+    "slugify": "^1.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
